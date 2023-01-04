@@ -1,0 +1,102 @@
+.navPrincipal {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.App-logo {
+  height: 20vmin;
+  pointer-events: none;
+  margin-top: 10px;
+
+}
+
+.liStyle {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin-top: 50px;
+  margin-bottom: -40px;
+  padding-bottom: 150px;
+}
+
+.liStyle li {
+  margin-left: 100px;
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.liStyle li Link {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.form-control {
+  border-radius: 20px;
+  width: 350px;
+  height: 35px;
+  background-color: whitesmoke;
+  margin-left: 50px;
+  padding-left: 10px;
+}
+
+.usericon {
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+.usericon a {
+  text-decoration: none;
+  color: whitesmoke;
+  margin-right: 10px;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.usericon i {
+  color: #eb5e28;
+}
+
+
+.divPrincipal {
+  display: inline-flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  padding-left: 10px;
+  padding-top: 5px;
+  flex-wrap: wrap;
+}
+
+
+.divPrincipal img {
+  width: 250px;
+  height: 300px;
+}
+
+.divDescription {
+  background-color: #f6f8f8;
+  box-shadow: 0 0px -20px 0 #00000026;
+  padding: 5px;
+  text-align: start;
+  width: 240px;
+  height: 150px;
+}
+
+.image-container {
+  position: relative;
+  transition: transform 0.2s;
+}
+
+.image-container:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.image-container:hover .overlay {
+  opacity: 1;
+}
